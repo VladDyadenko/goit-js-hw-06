@@ -30,8 +30,11 @@ const a = imegesItem.forEach(value => {
 });
 
 listImag.style.display = "flex";
+listImag.style.listStyle = "none";
 listImag.style.flexWrap = "wrap";
 listImag.style.gap = "10px";
+console.log(listImag)
+
 
 
 

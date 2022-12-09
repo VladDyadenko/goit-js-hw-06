@@ -2,7 +2,7 @@
 const inputEl = document.querySelector("#name-input");
 const spanEl = document.querySelector("#name-output");
 
-const addSpanText = event => {
+const inputTextHandler = event => {
 
     if(inputEl.value === "") {
         spanEl.textContent = "Anonymous";
@@ -10,4 +10,4 @@ const addSpanText = event => {
     
 }
 
-inputEl.addEventListener("input", addSpanText);
+inputEl.addEventListener("input", inputTextHandler);
