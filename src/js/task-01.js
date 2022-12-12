@@ -1,6 +1,4 @@
 
-"use strict"
-
 
 const listLiItem= document.querySelectorAll('li.item').length;
    console.log(`Number of categories: ${listLiItem}`);

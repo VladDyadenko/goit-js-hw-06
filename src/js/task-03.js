@@ -23,7 +23,7 @@ listImag.insertAdjacentHTML("beforeend", addImagesToList);
 let imegesItem = document.querySelectorAll("img");
 console.log(imegesItem)
 
-const a = imegesItem.forEach(value => {
+imegesItem.forEach(value => {
   value.style.height = "300px";
   value.style.display = "block";
   console.log(value)
