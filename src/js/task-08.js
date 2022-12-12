@@ -24,13 +24,16 @@ function addDataOnFormData (event){
     
     //  отримані дані вносимо в перемінну та виводимо в log 
     let dataInputUser = {};
-    console.log(dataInputUser);
+   
 
     dataInputUser = formData.forEach((email, password) => {
      
         dataInputUser.email = refs.formEl.email.value;
         dataInputUser.password = refs.formEl.password.value;
+        console.log(`email: ${dataInputUser.email}; password: ${dataInputUser.password}`);
     })
+    
+    
 
     // Чистимо поля форми
     refs.formEl.reset();
