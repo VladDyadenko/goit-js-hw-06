@@ -8,7 +8,7 @@ btnEl.addEventListener("click", chengeColorOnBode );
 function chengeColorOnBode(event) {
   console.log(event)
   body.style.backgroundColor = getRandomHexColor();
-  spanEl.textContent = getRandomHexColor();
+  spanEl.textContent = body.style.backgroundColor;
 
 }
 
